@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BBITBProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="txtfirstname_hint">First Name</string>
+    <string name="btncreateaccount">Create Account</string>
+    <string name="txtlastname_hint">Last Name</string>
+    <string name="txtemail">Email Address</string>
+    <string name="txtpassword">Password</string>
+    <string name="txtphonenumber">Phone Number</string>
+</resources>
+

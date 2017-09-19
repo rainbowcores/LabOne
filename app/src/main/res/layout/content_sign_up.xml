@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/paddingRight"
+    android:paddingLeft="@dimen/paddingLeft"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtfirstname_hint"
+        android:inputType="text"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtlastname_hint"
+        android:inputType="text"
+        />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtemail"
+        android:inputType="textEmailAddress"
+        />
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtphonenumber"
+        android:inputType="phone"
+        />
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtpassword"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btncreateaccount"
+
+
+        />
+
+</LinearLayout>
